@@ -1,14 +1,23 @@
-@'
-# Clinic Appointment Prototype
+# MedFlow Clinic Prototype (V2)
 
-A local Python Tkinter app for a doctor's clinic.
+A local desktop prototype for a doctor's clinic using **Python + Tkinter**.
+
+## What's new in V2
+
+- More professional/fancy dashboard styling with KPI cards.
+- Quick filter for appointments.
+- Time input now uses `HH-MM` format (dash separator), e.g. `14-30`.
+- Prescription upload/open flow retained.
 
 ## Features
-- Appointment tracking (patient, doctor, date, time, reason)
-- Prescription file upload and local storage
-- SQLite persistence (`clinic.db`)
-- Delete appointments
+
+- Track appointments (patient, doctor, date, time, reason).
+- Store data in `clinic.db` (SQLite).
+- Upload prescription files into `prescriptions/`.
+- Open prescription for selected appointment.
+- Delete appointments.
 
 ## Run
+
 ```bash
-python app.py
+python3 app.py
